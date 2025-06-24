@@ -1,0 +1,13 @@
+strict-ssl = false
+testenv = "evt1"
+zephyr_update = "no"
+zephyr_user = "username"
+zephyr_project_name = "proj1"
+zephyr_version = "1"
+zephyr_cycle_name = "A"
+zephyr_clone_cycle = "no"
+zephyr_clone_version = "Master_Test_Suite"
+zephyr_clone_cycle_name = "Smoke_Tests"
+zephyr_version = "Release_1"
+zephyr_cycle = "smoke_test"
+zephyr_url = "https://company.domain/jira/browse/"
