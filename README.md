@@ -56,7 +56,7 @@ const zephyr:zephyrAutomation = new zephyrAutomation();
 ```
 
 After the class has been initiated, the function `setup` needs to be called in a before hook (to avoid test step mismatch from automated test to Zephyr test) to check if folders/cycles/test execution exists for that test by calling:
-````
+```
 before(`initiate zephyr`, async function () {
   let zephyrData = await zephyr.setup(zephyrTest);
 });
