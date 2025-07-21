@@ -1,0 +1,11 @@
+{
+  "name": "EVT1",
+  "api": {
+    "tv": {
+      "baseUrl": "http://api.tvmaze.com/"
+    },
+    "jira": {
+      "baseUrl": "https://cdautomationtester.atlassian.net"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "zephyrOptions": {
+        "token": "npm_config_zephyr_api_token",
+        "environment": "npm_config_testenv",
+        "project": "npm_config_zephyr_project_name",
+        "cycleVersion": "npm_config_zephyr_project_name",
+        "cycleFolder": "npm_config_zephyr_cycle_folder",
+        "cycleFolderHieracrhy": "npm_config_zephyr_cycle_folder_parent",
+        "cycleName": "npm_config_zephyr_cycle_name",
+        "updateZephyr": "npm_config_zephyr_update"
+    }
+}

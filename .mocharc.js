@@ -15,8 +15,16 @@ module.exports = {
     package: './package.json',
     parallel: false,
     recursive: true,
-    reporter: 'mocha-multi-reporters',
-    'reporter-option': ['configFile=./config/default.json'],
+    reporter: 'mochawesome',
+    'reporter-option': [
+        'code=false',
+        'inline=true',
+        'json=false',
+        'html=true',
+        'reportDir=test_report',
+        'reportFilename=test-report.html',
+        'reportPageTitle=Test Report'
+    ],
     require: [
         "mocha-steps",
         "ts-node/register",
