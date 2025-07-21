@@ -5,7 +5,7 @@
       "baseUrl": "http://api.tvmaze.com/"
     },
     "jira": {
-      "baseUrl": "https://cdautomationtester.atlassian.net"
+      "baseUrl": "https://yourCompany.atlassian.net"
     }
   }
 }
